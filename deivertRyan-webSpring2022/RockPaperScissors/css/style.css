@@ -1,0 +1,38 @@
+h1, h2 {
+    color:#3B2F5E;
+    text-align: center;
+    font-family: Impact, fantasy;
+}
+
+body {
+    background-color: #9275EA;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button1, .button2, .button3 {
+    background-color: #582CDE;
+    border: none;
+    color: #ffffff;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Impact, fantasy;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.player, .cpu, .text{
+    font-size: 20px;
+    font-family: Impact, fantasy;
+    color: #D7CAFD;
+    margin: 30px;
+}
+
+.output {
+    text-align: center;
+}

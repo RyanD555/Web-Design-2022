@@ -1,0 +1,70 @@
+/* Body Elements */
+h1 {
+    color: #13253b;
+}
+
+body {
+    background: #3D8DF5;
+}
+
+.div1 {
+    width: 100%;
+    height: 100%;
+    color: #3E5675;
+    padding: 10px;
+    background-color: #88B8F7;
+    border: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+.div2 {
+    width: 100%;
+    height: 100%;
+    color: #3E5675;
+    padding: 10px;
+    background-color: #88B8F7;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+.nav {
+    float: left;
+    width: 100%;
+}
+
+/* Interactive Elements */
+.button1, .button2, .button3, .button4, .button5 {
+    background-color: #582CDE;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* box-shadow: 5px 5px 5px grey; */
+    filter: drop-shadow(0 0 0.75rem #808080);
+    border-radius: 5px;
+  }
+  /* Hover effect changes the color of the button when moused over */
+  .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
+    background-color: #3238FA;
+    transform: translateY(1px);
+    }
+
+/* Makes content resposive when the screen size is below 800 pixels. 'and' is NOT a logical operator */
+@media screen and (max-width: 800px) {
+    .div1, .div2 {
+        font-size: 50px;
+        background-color: #e6e6fa;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+}
