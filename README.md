@@ -1,2 +1,2 @@
-Content for my Web Design course at my school
+Content for my Web Design course at my school.
 Not much here really...
