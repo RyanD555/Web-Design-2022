@@ -1,1 +1,1 @@
-# Web-Design-2022
+Content for my Web Design course at my school
