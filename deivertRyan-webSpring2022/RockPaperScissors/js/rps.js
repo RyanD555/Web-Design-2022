@@ -12,7 +12,7 @@ function userChoice(choice) { //Player Choice
 }            
 
 function compChoice() {
-    let randNum = Math.floor(Math.random() * choices.length);
+    let randNum = Math.floor(Math.random() * choices.length); //dont really see the need of making this another function, since it is only used once
     return choices[randNum];
 }
 
@@ -79,7 +79,7 @@ function compareChoices() {
         cpuChoice == "scissors" && playerChoice == "paper") {
         console.log("user loses the game...");
         cpuWins++;
-        addParagraph("p", "The cpu wins! It has " + cpuWins + " wins!", "#D7CAFD", "Impact, fantasy", "15", "text");
+        addParagraph("p", "The computer wins! It has " + cpuWins + " wins!", "#D7CAFD", "Impact, fantasy", "15", "text");
     }
     else if (cpuChoice == playerChoice){
         console.log("tie game...");

@@ -1,7 +1,7 @@
 h1, h2 {
     color:#3B2F5E;
     text-align: center;
-    font-family: Impact, fantasy;
+    font-family: Impact, fantasy; /*Would add outline to text, but dont know how to do that in js...*/
 }
 
 body {
